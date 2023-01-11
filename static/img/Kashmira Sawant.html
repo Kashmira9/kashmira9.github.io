@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:4000/#projects -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="./Kashmira Sawant_files/analytics.js"></script><script>window["GUARDIO_SENSOR_CONF"] = {"click":true}</script><script>
+  document.write(
+    '<script src="' + location.protocol + '//' +
+    (location.host || 'localhost').split(':')[0] +
+    ':35729/livereload.js?snipver=1&amp;port=35729"' +
+    '></' +
+    'script>');
+</script><script src="./Kashmira Sawant_files/livereload.js"></script>
+
+  <title>Kashmira Sawant</title>
+  <link rel="stylesheet" href="./Kashmira Sawant_files/bootstrap.min.css">
+  <link href="./Kashmira Sawant_files/css" rel="stylesheet" type="text/css">
+  <link href="./Kashmira Sawant_files/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Kashmira Sawant_files/bootstrap-social.min.css">
+
+  <!-- Favicon related settings -->
+  <link rel="apple-touch-icon" sizes="180x180" href="http://127.0.0.1:4000/static/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://127.0.0.1:4000/static/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://127.0.0.1:4000/static/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="http://127.0.0.1:4000/static/img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="http://127.0.0.1:4000/static/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="http://127.0.0.1:4000/static/img/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/static/img/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <script src="./Kashmira Sawant_files/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="./Kashmira Sawant_files/bootstrap.min.js"></script>
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ayshrv.com">
+  <meta property="og:title" content="Kashmira Sawant">
+  <meta property="og:description" content="Ayush is a second year Computer Science PhD student at University of Michigan, advised by Prof. Andrew Owens. His research interests lie in Computer Vision and Multimodal Learning.">
+  <meta property="og:image" content="https://ayshrv.github.io/static/img/ayush.jpg">
+
+  <meta name="google-site-verification" content="v05Mbrht6lKg8NENUlvSyle-R5MntwVrCgUoSD5UOQk">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:domain" value="ayshrv.com">
+  <meta name="twitter:title" value="Ayush Shrivastava">
+  <meta name="twitter:description" value="Ayush is a second year Computer Science PhD student at University of Michigan, advised by Prof. Andrew Owens. His research interests lie in Computer Vision and Multimodal Learning.">
+  <meta name="twitter:image" content="https://ayshrv.github.io/static/img/ayush.jpg">
+  <meta name="twitter:url" value="https://ayshrv.com">
+  <meta name="twitter:label1" value="CS PhD Student">
+  <meta name="twitter:data1" value="University of Michigan">
+
+<style type="text/css">
+
+
+.blinking-cursor {
+  font-weight: 200;
+  font-size: 20px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+body{
+  background: white;
+  color: black;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 70px;
+}
+
+.title_bar_text{
+  margin-left: 15px;
+  color: white;
+}
+
+h1,h2,h3, h4{
+  font-weight: 300;
+}
+.content_heading{
+  margin-left: 5px;
+}
+.content{
+  margin-left: 30px;
+  font-size: 16px;
+}
+.section_heading{
+  padding-top: 40px;
+}
+img{
+  vertical-align: middle !important;
+}
+
+p{
+  font-size: 16px;
+}
+#news_list li, #achievements_list li{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.contact_div{
+  margin-bottom: 30px;
+}
+
+.project_list{
+  margin-bottom: 20px;
+}
+.panel{
+  margin-bottom: 0px;
+}
+.navbar-right li{
+  color: white;
+}
+.navbar{
+  color: white;
+  background-color: rgb(8, 8, 79);
+  font-weight: 800;
+}
+#navbarname{
+  color:white;
+  font-weight: 800;
+}
+
+.thumb {
+    margin: 20px 0;
+    border: 1px solid #8f1111;
+}
+.conf{
+  color: blue;
+  font-weight: 500;
+}
+.white-text{
+  color: white;
+}
+
+a:not(.navbar-brand):not(.btn-social-icon):not(.github-button):not(.link-btn){
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  color: inherit;
+}
+
+a:hover:not(.btn-social-icon):not(.github-button):not(.link-btn) {
+  color:#ffcc00 !important;
+  /*border-bottom: none;*/
+}
+
+</style></head>
+
+<body data-new-gr-c-s-check-loaded="14.1093.0" data-gr-ext-installed="">
+  <nav class="navbar navbar-default navbar-fixed-top">
+
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand active" id="navbarname" href="http://127.0.0.1:4000/">Kashmira Sawant</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="http://127.0.0.1:4000/#education">Education</a></li>
+          <li><a href="http://127.0.0.1:4000/#skills">Skills</a></li>
+          <li><a href="http://127.0.0.1:4000/#experience"><b>Experience</b></a></li>
+          <li><a href="http://127.0.0.1:4000/#projects">Projects</a></li>
+          <li><a href="http://127.0.0.1:4000/#publications">Publications</a></li>
+          <li><a href="http://127.0.0.1:4000/#certifications">Certifications</a></li>
+          <li><a href="http://127.0.0.1:4000/#achievements">Achievements</a></li>
+
+
+          <li><a href="http://127.0.0.1:4000/static/docs/KashmiraCV.pdf" target="_blank">CV</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        </ul>
+      </div>
+    </div>
+  </nav> 
+
+
+
+
+  <div class="container">
+    <div id="about"><div class="row">
+  <h2>About Me</h2>
+  <hr>
+  <div class="col-sm-3">
+    <div>
+      <img src="./Kashmira Sawant_files/IMG_1805.JPG" width="100%">
+    </div>
+  </div>
+  <div class="col-sm-8">
+    <p class="content">
+      I am a second year Health Informatics Masters student at University of Michigan, Ann Arbor. I am working as a Research Assistant under the supervision of <a href="https://medicine.umich.edu/dept/lhs/jodyn-e-platt-mph-phd" target="_blank"> Dr. Jodyn Platt</a>.
+      My work focuses on Precision Health, Learning Health Systems, Social Determinants of Health, Interoperability and FHIR applications. 
+    </p>
+    <p class="content">
+    I completed my undergraduate degree Bachelors in Dental Surgery from <a href="https://www.nairhospitaldentalcollege.edu.in/" target="_blank">Nair Hospital Dental College (NHDC) Mumbai</a>.
+    I  worked as a Researcher from 2017-2019 at Nair Hospital Dental College, Mumbai India under the supervision of <a href="https://www.researchgate.net/profile/Ajinkya-Pawar-12" target="_blank">Dr. Ajinkya Pawar</a>.
+    </p>
+
+    <p class="content">
+    I am actively looking for full-time position for Clinical System Analyst, System Analyst, Business System Analyst, Data Analyst, Reseach Coordinator and Reseach Associate roles.  I want to use my knowledge and experience of working in healthcare and hospital to improve health outcomes by using my skills to analyse healthcare data. I have in-depth understanding of business operations and analytic tools for effective analysis of data.
+
+    </p><p class="content">
+    Email: <b>ksawant@umich.edu</b>
+    </p>
+    <p class="content">
+      Find my <b>CV</b> here:
+    <a href="http://127.0.0.1:4000/static/docs/KashmiraCV.pdf" target="_blank"><img src="./Kashmira Sawant_files/cv_logo.png" height="35px"></a>
+    </p>
+    <span class="content">You can also find me at:  </span>
+
+    <a class="btn btn-social-icon" href="https://scholar.google.com/citations?user=DCqYQbcAAAAJ&amp;hl=en" target="_blank">
+      <img src="./Kashmira Sawant_files/google-scholar-square.svg" height="35px">
+      <!-- <span class="fa fa-github"></span> -->
+    </a>
+
+    <!-- <a class="btn btn-social-icon btn-github" href="https://github.com/ayshrv" target="_blank"> -->
+      <!-- <span class="fa fa-github"></span> -->
+    <!-- </a> -->
+
+    <!-- <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/ayshrv" target="_blank">
+      <span class="fa fa-twitter"></span>
+    </a> -->
+
+    <a class="btn btn-social-icon btn-linkedin" target="_blank" href="https://linkedin.com/in/kashmirasawant">
+      <span class="fa fa-linkedin"></span>
+    </a>
+
+    <a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/kashmiraswnt">
+      <span class="fa fa-facebook"></span>
+    </a>
+  </div>
+</div>
+</div>
+    <!-- <p></p> -->
+    <div id="education"><div class="row">
+
+  <h2>Educational Qualifications</h2>
+  <hr>
+
+  <div class="row">
+    <div class="col-sm-9">
+      <h3 class="content_heading">Master in Health Informatics</h3>
+      <h4 class="content_heading">University of Michigan, Ann Arbor</h4>
+        <p class="content">Specialization in Big Data Analytics and Clinical Informatics</p>
+        <p class="content">Expected Graduation: April 2023</p>
+        <p class="content">Expected GPA: <em>3.94/4.0</em></p>
+    </div>
+    <div class="col-sm-3" align="center">
+      <img src="./Kashmira Sawant_files/umich.jpeg" width="50%">
+      <p>(August 2021 - Present)</p>
+    </div>
+  </div>
+  <div class="row" style="height: 10px;">
+    <div class="col-sm-8"></div>
+  </div>
+  <!-- <div class="row">
+    <div class="col-sm-9">
+      <h3 class="content_heading">Master of Science in Computer Science</h3>
+      <h4 class="content_heading">Georgia Institute of Technology, Atlanta</h4>
+        <p class="content">Specialization in Machine Learning</p>
+        <p class="content">GPA: <em>4.0/4.0</em></p>
+    </div>
+    
+    <div class="col-sm-3" align="center">
+      <img src="static/img/experience/gt.png" width="80%">
+      <p>(August 2019 - May 2021)</p>
+    </div>
+  </div> -->
+
+  <div class="row" style="height: 30px;">
+    <div class="col-sm-8"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-9">
+      <h3 class="content_heading">Bachelor of Dental Surgery</h3>
+      <h4 class="content_heading">Nair Hospital Dental College Mumbai</h4>
+        <p class="content">GPA: <em>4.0 / 4.0</em></p>
+        <!-- <p class="content">Class Rank: <em>9th rank (or top-6%)</em></p> -->
+    </div>
+    <div class="col-sm-3" align="center">
+      <img src="./Kashmira Sawant_files/images (1).jpeg" width="50%">
+      <p>(Sept 2014 - Sept 2019)</p>
+    </div>
+  </div>
+
+</div>
+</div>
+    <div id="skills"><div class="row">
+  <h2>Technical Skills</h2>
+  <hr>
+  <div>
+    <p class="content_heading"><b>Languages</b></p>
+    <p class="content">- Python, Lua, C++, C, C#</p>
+  </div>
+  <div>
+    <p class="content_heading"><b>Research-y Skills</b></p>
+    <p class="content">- Machine Learning, Computer Vision, Deep Learning</p>
+  </div>
+  <div>
+    <p class="content_heading"><b>Databases</b></p>
+    <p class="content">- MySQL, PostgreSQL, MongoDB, Elasticsearch, Redis, Couchbase</p>
+  </div>
+  <div>
+    <p class="content_heading"><b>Deployment Skills</b></p>
+    <p class="content">- Docker, AWS EC2, ElasticBeanstalk, RDS, S3, SQS, VPC</p>
+  </div>
+  <div>
+    <p class="content_heading"><b>Web Technologies</b></p>
+    <p class="content">- RESTful Web Services, HTML, CSS, Javascript, AngularJS, Jquery, Socket.IO, Bootstrap, Material Design, Apache, Nginx</p>
+  </div>
+  <div>
+    <p class="content_heading"><b>Mobile Applications</b></p>
+    <p class="content">- Android Application development, Windows Mobile Application development</p>
+  </div>
+  <div>
+    <p class="content_heading"><b>Other Technologies</b></p>
+    <p class="content">- PyTorch, Torch, Celery, RabbitMQ, OpenCV</p>
+  </div>
+  <div>
+    <p class="content_heading"><b>Version Control</b></p>
+    <p class="content">- Git</p>
+  </div>
+</div>
+</div>
+    <div id="experience"><div class="row">
+    <h2>Experience</h2>
+    <hr>
+
+    <div class="row">
+      <div class="col-sm-9">
+        <h3 class="content_heading">Synthetic data Intern, Reseach and Development Department </h3>
+        <h4 class="content_heading">Michigan Health Information Network Shared Services (MiHIN)</h4>
+          <p class="content">
+            Supervisor: <a target="_blank" href="https://www.linkedin.com/in/amber-weeks-aa418678/">Amber Weeks</a><br><br>
+
+            - Creation of test patient personas and records for FHIR Pilot Interoperability Testbeds (PITs), DaVinci, Interopathons, and internal requests as needed.<br>
+            - Loading, updating and deleting of JSON resources to FHIR Pilot Interoperability Testbeds (PITs). Interpretation of XML documents to create JSON records for test data. Creation of FHIR PITs resources for testing.<br>
+            - Creation of synthetic HL7 data standards messages to emulate realistic patient records for testing.<br>
+            - Maintenance of a User Guide for onboarding clients of the Interoperability Land application.
+          </p>
+      </div>
+      <div class="col-sm-3" style="height: 120px;">
+        <div class="col-sm-8"></div>
+      </div>
+      <div class="col-sm-3" align="center">
+        <img src="./Kashmira Sawant_files/MiHIN-New-Logo-1.jpeg" width="250px">
+        <p>(December 2022 - Present)</p>
+        <br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-9">
+        <h3 class="content_heading">Enterprise Operations Intern, IT Support Department</h3>
+        <h4 class="content_heading">Michigan Health Information Network Shared Services (MiHIN)</h4>
+          <p class="content">
+            Supervisor: Tyler Cole <br><br>
+            - Delivered data warehouse and analytic solutions by writing ETL packages, developing visualizations, performing data, and statistical analyses to deliver information to the health system.<br>
+            - Assist with the development of pipelines to synthesize raw data into actionable information.Evaluated data quality using SQL and interpreted results and visualized data using Tableau dashboard.<br>
+            - Provided analytical assistance to team members to resolve application incidents and maintenance items requests.<br>
+          </p>
+      </div>
+      <div class="col-sm-3" style="height: 100px;">
+        <div class="col-sm-8"></div>
+      </div>
+      <div class="col-sm-3" align="center">
+        <img src="./Kashmira Sawant_files/MiHIN-New-Logo-1.jpeg" width="250px">
+        <p>(Sept 2022 - December 2022)</p>
+        <br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-9">
+        <h3 class="content_heading">Graduate Research Assistant (Data Analytics)</h3>
+        <h4 class="content_heading">Michigan Medicine</h4>
+          <p class="content">
+            Supervisor: <a target="_blank" href="https://medicine.umich.edu/dept/lhs/jodyn-e-platt-mph-phd">Dr. Jodyn Platt</a><br><br>
+            - Developed sociotechnical maturity model frameworks for Precision Oncology for quality improvement of healthcare delivery by aggregating patient data, transforming it into knowledge, and implementation of knowledge in practice. <br>
+            - Performed statistical analysis on large dataset using Python and developed codebook for analysis of qualitative data and identification of themes from interviews.<br>
+            - Analysed 34 qualitative interviews transcripts conducted with implementation specialist, medical oncologist, pathologist, and tumor board director at Michigan Medicine, Northwestern Hospital, and UCSF School of Medicine.<br>
+          </p>
+      </div>
+      <div class="col-sm-3" style="height: 80px;">
+        <div class="col-sm-8"></div>
+      </div>
+      <div class="col-sm-3" align="center">
+        <img src="./Kashmira Sawant_files/mm-logo.png" width="250px">
+        <p>(January 2022 - December 2022)</p>
+        <br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-9">
+        <h3 class="content_heading">Graduate Research Intern, Machine Learning</h3>
+        <h4 class="content_heading">University of Michigan</h4>
+          <p class="content">
+            Supervisor: Dr. V.G.Vinod Vydiswaran<br><br>
+
+            - Conducted exploratory data analysis on tweets of African American influencers and consolidated a list of keywords and hashtags that can be used to further extract tweets.<br>
+            - Text identification was done for African American Vernacular English on tweets dataset related to COVID-19. Logistic Regression Model and Support Vector Model were used for binary classification of tweets.<br>
+            - This project was done in collaboration with Henry Ford Health System to address the critical need to develop culturally relevant, justice-centered, and actionable approaches to health crises impacting the US African American community and other vulnerable groups. <br>
+          </p>
+      </div>
+      <div class="col-sm-3" style="height: 80px;">
+        <div class="col-sm-8"></div>
+      </div>
+      <div class="col-sm-3" align="center">
+        <img src="./Kashmira Sawant_files/umich.jpeg" width="150px">
+        <p>(May 2022 - August 2022)</p>
+        <br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-9">
+        <h3 class="content_heading">Medical Data Analyst and Medical Scribe </h3>
+        <h4 class="content_heading">Inventurus Knowledge Solutions</h4>
+          <p class="content">
+            - Assisted in development of data formatting and cleaning criteria from Electronic Health Records like Epic and Cerner.<br>
+            - Scribed medical notes for 50 physicians from General Medicine, Geriatric and Gynecology Departments and followed specifications of the physicians for note capture by creating EHR templates.<br>
+            - Formulated procedures for data extraction, transformation and integration of healthcare data for more than 8 projects.<br>
+            - Worked with 15 providers at Advocate Health Care, Chicago and Lehigh Valley Physician group, Pennsylvania. Experience working with medical charts and knowledge of HIPPA compliance.<br>
+          </p>
+      </div>
+      <div class="col-sm-3" style="height: 60px;">
+        <div class="col-sm-8"></div>
+      </div>
+      <div class="col-sm-3" align="center">
+        <img src="./Kashmira Sawant_files/IKSHealth_logo.png" width="250px">
+        <p>(Sept 2019 - June 2021)</p>
+        <br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-9">
+        <h3 class="content_heading">Clinical Documentation Specialist</h3>
+        <h4 class="content_heading">Acquity Solutions</h4>
+          <p class="content">
+            - Provided remote clinical documentation integrity (CDI) support to Oncology physicians group by using Cerner EHR. <br>
+            - Utilized advanced coding and clinical expertise to direct efforts toward the improvement and integrity of clinical documentation.<br>
+            - Reviewed and audited medical record clinical documentation to support the medical necessity, severity of illness, risk of mortality, accurate coding, clinical evidence, and level of services rendered to all patients.<br>
+            - Audited clinical documentation for query compliance, workflow and missed documentation opportunities<br>
+            - Trains end users in the use of CDI system software, standards, and workflow.<br>
+        
+            <!-- <a href="https://github.com/ayshrv/mobilenet_psp" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Code</button></a> -->
+            </p>
+      </div>
+      <!-- <div class="col-sm-3" style="height: 10px;">
+        <div class="col-sm-8"></div>
+      </div> -->
+      <div class="col-sm-3" align="center">
+        <img src="./Kashmira Sawant_files/Aquity.jpeg" width="250px">
+        <p>(June 2021 - Aug 2021)</p>
+      </div>
+    </div>
+
+</div>
+</div>
+    <div id="projects">  <div class="row">
+    <h2>Projects</h2>
+    <hr>
+    <div class="row">
+      <div class="col-sm-12">
+        <h3 class="content_heading">Artificial Intelligence-enhanced Clinical Decision Support (AI-CDS) for precision health</h3>
+        <br>
+        <p>
+           - Conducted literature review on the use of digital health for the management of palliative care in geriatric patients.
+           - Analysed qualitative data concerning the relationship between digital health service and improvement of healthcare delivery.
+           - Facilitated and coordinated with teammates on the project deadlines and deliverables. Worked on manuscript writing for the project.
+        </p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <a href="https://evalai.cloudcv.org/" target="_blank"><img src="./Kashmira Sawant_files/evalai_preview.png" width="100%"></a>
+      </div>
+      <div class="col-sm-4">
+        <img src="./Kashmira Sawant_files/kaggle_comparison.png" width="100%">
+      </div>
+      <div class="col-sm-4" align="center">
+        <h5>Invited talk on EvalAI in VQA 2017 Workshop</h5>
+        <iframe width="100%" height="200px" src="./Kashmira Sawant_files/goEe4gx1yZg.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+      </div>
+    </div>
+
+    <hr>
+    <div class="row">
+        <div class="col-sm-12">
+          <h3 class="content_heading">HIEME: Human-Interactive Evaluation Made Easy</h3>
+          <br>
+          <p>Proof of concept of a central, standardized open source platform for human-in-the-loop evaluation of AI agents.
+            Developed the infrastructure to pair Amazon Mechanical Turk (AMT) users in real-time with artificial visual dialog agents.</p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-6" align="center">
+          <h5>HIEME Architecture</h5>
+          <img src="./Kashmira Sawant_files/hieme.jpeg" alt="HIEME" width="100%" height="400px">
+        </div>
+          <div class="col-sm-6" align="center">
+            <h5>Short Video on evaluating Visual Dialog Agents using HIEME</h5>
+            <iframe width="560" height="315" src="./Kashmira Sawant_files/HCpQWGmdyoY.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+        </div>
+      </div>
+  </div>
+</div>
+    <div id="publications">  <div class="row">
+    <div></div>
+    <h2>Publications</h2>
+    <hr>
+    <div class="row" id="teach" style="height: 40px;">
+      <div class="col-sm-8"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4" align="center">
+        <img class="thumb" src="./Kashmira Sawant_files/teach.png" width="100%">
+      </div>
+      <div class="col-sm-8">
+          <h3 class="content_heading">TEACh: Task-driven Embodied Agents that Chat
+          </h3>
+          <p class="content">
+            </p><p class="pubd">
+                <span class="authors">Aishwarya Padmakumar<sup>*</sup>, Jesse Thomason<sup>*</sup>, <b>Ayush Shrivastava</b>, Patrick Lange, Anjali Narayan-Chen, Spandana Gella, Robinson Piramithu, Gokhan Tur, and Dilek Hakkani-Tur
+                <br><span class="conf">AAAI 2022</span>
+                <br>
+                <br>
+                <a href="https://arxiv.org/abs/2110.00534" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Paper</button></a>
+                <a href="https://teachingalfred.github.io/" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Website</button></a>
+                <a href="https://github.com/alexa/teach" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Code</button></a>
+                <a href="https://www.amazon.science/blog/new-dataset-for-training-household-robots-to-follow-human-commands" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Coverage</button></a>
+                
+
+                <br>
+            </span></p>
+          <p></p>
+      </div>
+    </div>
+
+    <div class="row" id="visitron" style="height: 40px;">
+      <div class="col-sm-8"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4" align="center">
+        <img class="thumb" src="./Kashmira Sawant_files/visitron.png" width="100%">
+      </div>
+      <div class="col-sm-8">
+          <h3 class="content_heading">VISITRON: Visual Semantics-Aligned Interactively Trained Object-Navigator
+          </h3>
+          <p class="content">
+            </p><p class="pubd">
+                <span class="authors"><b>Ayush Shrivastava</b>, Karthik Gopalakrishnan, Yang Liu, Robinson Piramuthu, Gokhan Tür, Devi Parikh, Dilek Hakkani-Tür</span>
+                <br><span class="conf">Findings of ACL 2022</span>
+                <br><span class="conf">ViGIL Workshop at NAACL 2021</span>
+                <br>
+                <br>
+                <a href="https://arxiv.org/abs/2105.11589" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Paper</button></a>
+                <a href="https://github.com/alexa/visitron" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Code</button></a>
+                <br>
+            </p>
+          <p></p>
+      </div>
+    </div>
+
+    <div class="row" id="vln-sim2real-corl2020" style="height: 40px;">
+      <div class="col-sm-8"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4" align="center">
+        <img class="thumb" src="./Kashmira Sawant_files/vln-sim2real-gif.gif" width="100%">
+      </div>
+      <div class="col-sm-8">
+          <h3 class="content_heading">Sim-to-Real Transfer for Vision-and-Language Navigation</h3>
+          <p class="content">
+            </p><p class="pubd">
+                <span class="authors">Peter Anderson, <b>Ayush Shrivastava</b>, Joanne Truong, Arjun Majumdar, Devi Parikh, Dhruv Batra, Stefan Lee</span>
+                <br><span class="conf">CoRL 2020</span>
+                <br>
+                <br>
+                <a href="https://arxiv.org/abs/2011.03807" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Paper</button></a>
+                <a href="https://github.com/batra-mlp-lab/vln-sim2real" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Code</button></a>
+                <br>
+            </p>
+          <p></p>
+      </div>
+    </div>
+
+    <div class="row" id="vlnbert-eccv2020" style="height: 40px;">
+      <div class="col-sm-8"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4" align="center">
+        <img class="thumb" src="./Kashmira Sawant_files/vln-bert.png" width="100%">
+      </div>
+      <div class="col-sm-8">
+          <h3 class="content_heading">Improving Vision-and-Language Navigation with Image-Text Pairs from the Web</h3>
+          <p class="content">
+            </p><p class="pubd">
+                <span class="authors">Arjun Majumdar, <b>Ayush Shrivastava</b>, Stefan Lee, Peter Anderson, Devi Parikh, Dhruv Batra</span>
+                <br><span class="conf">ECCV 2020 <span style="color: green">(Spotlight) [Top 5%]</span></span>
+                <br><span class="conf"><a href="https://larel-ws.github.io/" target="_blank">ICML 2020 LaReL Workshop</a> <span style="color: green">(Best Paper Honorable Mention)</span></span>
+                <br>
+                <br>
+                <a href="https://arxiv.org/abs/2004.14973" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Paper</button></a>
+                <a href="https://larel-ws.github.io/assets/pdfs/improving_vision_and_language_navigation_with_image_text_pairs_from_the_web.pdf" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Extended Abstract</button></a>
+                <a href="https://youtu.be/Q4m3p3AYTOg" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Video (short)</button></a>
+                <a href="https://youtu.be/svGDWs0vqaw" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Video (long)</button></a>
+                <br>
+            </p>
+          <p></p>
+      </div>
+    </div>
+
+    <div class="row" id="chasing-ghosts-neurips2019" style="height: 40px;">
+      <div class="col-sm-8"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4" align="center">
+        <img class="thumb" src="./Kashmira Sawant_files/chasing_ghosts.png" width="100%">
+      </div>
+      <div class="col-sm-8">
+          <h3 class="content_heading">Chasing Ghosts: Instruction Following as Bayesian State Tracking</h3>
+          <p class="content">
+            </p><p class="pubd">
+                <span class="authors">Peter Anderson<sup>*</sup>, <b>Ayush Shrivastava</b><sup>*</sup>, Devi Parikh, Dhruv Batra, Stefan Lee</span>
+                <br>
+                (* denotes equal contribution)
+                <br><span class="conf">NeurIPS 2019</span>
+                <br>
+                <br>
+                <a href="https://arxiv.org/abs/1907.02022" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Paper</button></a>
+                <a href="https://github.com/batra-mlp-lab/vln-chasing-ghosts" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Code</button></a>
+                <a href="http://127.0.0.1:4000/static/files/neurips19-vln-chasing-ghosts-poster.pdf" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Poster</button></a>
+                <a href="https://www.youtube.com/watch?v=eoGbescCNP0" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Video</button></a>
+                <br>
+            </p>
+          <p></p>
+      </div>
+    </div>
+
+    <br>
+    <h3>Undergrad</h3>
+
+    <div class="row">
+      <div class="col-sm-4" align="center">
+          <img class="thumb" src="./Kashmira Sawant_files/auto_mammogram.png" width="100%">
+      </div>
+      <div class="col-sm-8">
+          <h3 class="content_heading">Automated digital mammogram segmentation using Dispersed Region Growing and Sliding Window Algorithm</h3>
+          <p class="content">
+            </p><p class="pubd">
+                <span class="authors"><b>Ayush Shrivastava</b><sup>*</sup>, Arpit Chaudhary<sup>*</sup>, Devang Kulshreshtha, Vibhav Prakash Singh, Rajeev Srivastava</span>
+                <br>
+                (* denotes equal contribution)
+                <br><span class="conf"><a href="http://www.icivc.org/" target="_blank">ICIVC 2017</a></span>
+                <br>
+                <br>
+                <a href="https://ieeexplore.ieee.org/document/7984579" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Paper</button></a>
+                <br>
+            </p>
+          <p></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4" align="center">
+        <img class="thumb" src="./Kashmira Sawant_files/mammogram_classification.png" width="80%">
+      </div>
+      <div class="col-sm-8">
+        <h3 class="content_heading">Mammogram Classiﬁcation Using Selected GLCM Features and Random Forest Classiﬁer</h3>
+        <p class="content">
+          </p><p class="pubd">
+              <span class="authors">Vibhav Prakash Singh, <b>Ayush Shrivastava</b>, Devang Kulshreshtha, Arpit Chaudhary, Rajeev Srivastava</span>
+              <br><span class="conf">IJCSIS 2016</span>
+              <br>
+              <br>
+              <a href="http://www.academia.edu/27067717/Mammogram_Classification_Using_Selected_GLCM_Features_and_Random_Forest_Classifier" class="white-text" target="_blank"><button type="button" class="btn btn-primary ribbon">Paper</button></a>
+              <br>
+          </p>
+        <p></p>
+      </div>
+    </div>
+
+ </div>
+
+      <!-- <div class="col-sm-12">
+        <h3 class="content_heading">It Takes Two to Tango: Towards Theory of AI's Mind</h3>
+        <p class="content">
+            <p class="pubd">
+                <span class="authors">Arjun Chandrasekaran<sup>*</sup>, <b>Deshraj Yadav</b><sup>*</sup>, Prithvijit Chattopadhyay<sup>*</sup>, Viraj Prabhu<sup>*</sup>, Devi Parikh</span>
+                <br><span class="conf"><a>Chalearn Looking at People Workshop, CVPR 2017</a></span>
+                <br>
+            </p>
+
+
+        <p>
+          <a href="https://deshraj.github.io/TOAIM" class="white-text"><button type="button" class="btn btn-primary ribbon">Demo</button></a>
+          <a href="https://github.com/deshraj/TOAIM" class="white-text"><button type="button" class="btn btn-primary ribbon">Code</button></a>
+        </p>
+
+        <div class="col-sm-12">
+          <a href="https://arxiv.org/abs/1704.00717">
+            <img class="thumb" src="/static/img/toaim.jpg" width="100%">
+          </a>
+        </div>
+      </div> -->
+
+      <!-- <div class="col-sm-12">
+        <h3 class="content_heading">Visual Dialog</h3>
+        <p class="pubd">
+          <span class="authors">Abhishek Das, Satwik Kottur, Khushi Gupta, Avi Singh, <b>Deshraj Yadav</b>, José M.F. Moura, Devi Parikh, Dhruv Batra</span>
+          <br><span class="conf"><a>CVPR 2017 - Spotlight</a></span>
+        </p>
+
+        <p>
+          <a href="https://visualchatbot.cloudcv.org" class="white-text"><button type="button" class="btn btn-primary ribbon">Demo</button></a>
+          <a href="https://visualdialog.org" class="white-text"><button type="button" class="btn btn-primary ribbon">Project Webpage</button></a>
+          <a href="https://github.com/Cloud-CV/visual-chatbot" class="white-text"><button type="button" class="btn btn-primary ribbon">Visual Chatbot Code</button></a>
+          <a href="https://github.com/batra-mlp-lab/visdial-amt-chat" class="white-text"><button type="button" class="btn btn-primary ribbon">Data Collection Code</button></a>
+        </p>
+
+        <div class="col-sm-12">
+          <a href="https://arxiv.org/abs/1611.08669">
+            <img class="thumb" src="/static/img/vd_thumb.jpg" width="100%">
+          </a>
+        </div>
+      </div> -->
+</div>
+    <div id="certifications"><div class="row">
+
+  <h2>Certifications</h2>
+  <hr>
+
+  <div class="col-sm-3">
+    <div>
+    <img src="./Kashmira Sawant_files/Epic.jpeg" width="80%">
+    </div>
+  </div>
+  <div class="col-sm-9">
+    <h3 class="content_heading">Epic Clarity Data Model</h3>
+      <p class="content">Status: In-progress</p>
+      <!-- <p class="content">Expected Graduation: April 2023</p>
+      <p class="content">Expected GPA: <em>3.94/4.0</em></p> -->
+  </div>
+
+  <!-- <div class="row">
+    <div class="col-sm-9">
+      <h3 class="content_heading">Epic Clarity Data Model</h3>
+        <p class="content">Status: In-progress</p>
+    </div>
+    <div class="col-sm-3" align="center">
+      <img src="/static/img/Epic.jpeg" width="80%">
+    </div>
+  </div>
+  <div class="row" style="height: 10px;">
+    <div class="col-sm-8"></div>
+  </div> -->
+</div></div>
+    <div id="achievements"><div class="row">
+  <h2>Achievements</h2>
+  <hr>
+  <div class="col-md-12">
+    <ul id="achievements_list">
+      <!-- <li class="newsElement"></li> -->
+      <li class="newsElement">Awarded Amazon Post-Internship Fellowship.</li>
+      <li class="newsElement">Travel Scholarship for Google Summer of Code Mentor Summit 2018, Google Sunnyvale.</li>
+      <li class="newsElement">Winner, code.fun.do 2017; hackathon conducted by Microsoft.</li>
+      <li class="newsElement">Runner up, code.fun.do 2016; hackathon conducted by Microsoft.</li>
+      <li class="newsElement">Winner of Enigma, a ML hackathon conducted by CodeFest 2016 (Computer Science Fest, IIT BHU).</li>
+      <li class="newsElement">Secured All India Rank 859 in IIT JEE (Advanced) 2014 among 1.5 Lakh students (among top 0.5%).</li>
+      <li class="newsElement">Vibrant Academy Scholarship recipient (2012 - 2014).</li>
+      <!-- <li class="newsElement"><a href="https://snapresearchscholarship.splashthat.com/">Snap Research Scholarship</a> recipient, 2017: One of 8 awardees, selected from a pool of 60+ applicants from across the world</li>
+      <li class="newsElement"> Travel Scholarship recipient for Google Summer of Code Mentor Summit, 2017</li>
+      <li class="newsElement"> Travel Scholarship recipient for Google Summer of Code Mentor Summit, 2016</li>
+      <li class="newsElement"><a href="http://mhrd.gov.in/nmms">National Means Cum-Merit Scholarship</a> recipient with <b>State Rank 13</b> (offered by Ministry of Human Resource and Development, Government of India)</li>
+      <li class="newsElement"><a href="http://desw.gov.in/scholarship">Prime Minister Scholarship Scheme</a> recipient offered by Ministry of Defence, India</li>
+      <li class="newsElement">Head Organizer of <a href="https://www.youtube.com/watch?v=3aOoPCKcKxY">Hackathon 2015</a>: More than 350 students participated in this hackathon</li>
+      <li class="newsElement">Winner of Cassiopeian Wars 2014 organized by Microsoft Mobile Innovation Labs</li>
+      <li class="newsElement">First Runner Up at <b>HACK-A-THON SUMMER 2014</b> organized by Google Developers Group Lingaya's University. Won prize of worth Rs. 25,000</li>
+      <li class="newsElement">Second Runner Up in Linux Challenge organized at Netaji Subhash Institute Of Technology (NSIT Delhi)</li>
+      <li class="newsElement">First Runner Up at Junkyard Wars organized at Deen Dayal Upadhyay College, Delhi University</li> -->
+    </ul>
+  </div>
+</div>
+</div>
+    <div id="contact"><div class="row contact_div">
+  <h2>Contact</h2>
+  <hr>
+  <p class="content">- Primary Email: ksawant@gmail.com</p>
+  <p class="content">- Secondary Email: kashmiraswnt@gmail.com</p>
+</div>
+</div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-footer" align="center">© <font size="+1">Kashmira Sawant</font> <br>
+(Design &amp; CSS courtesy: <a href="http://deshraj.xyz/">Ayush Shrivastava</a>)</div>
+  </div>
+
+  <script type="text/javascript">
+    $( document ).ready(function() {
+      $("#about").load("templates/about.html");
+      $("#education").load("templates/education.html");
+      $("#skills").load("templates/skills.html");
+      $("#experience").load("templates/experience.html");
+      $("#projects").load("templates/projects.html");
+      $("#publications").load("templates/publications.html");
+      $("#certifications").load("templates/certifications.html");
+      $("#achievements").load("templates/achievements.html");
+      $("#contact").load("templates/contact.html");
+    });
+  </script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-131271936-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async="" defer="" src="./Kashmira Sawant_files/buttons.js"></script>
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
